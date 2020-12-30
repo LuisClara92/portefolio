@@ -18,7 +18,8 @@ export const projects = [
     img: `${gameApp}`,
     url: 'https://wcs-lisbon-lc-game-app.netlify.app/',
     title: 'Game Library',
-    description: 'A project for WCS Lisbon built with React using MaterialUI and wild-games API from herokuapp.',
+    description: 
+      'A project for WCS Lisbon built with React using MaterialUI and wild-games API from herokuapp.',
     github: 'https://github.com/LuisClara92/game-app',
   },
   {
@@ -26,7 +27,7 @@ export const projects = [
     url: 'https://rick-and-morty-lc.netlify.app/',
     title: 'Rick and Morty Wiki',
     description:
-      'A project for WCS Lisbon built with React using styled-Components and Rick and Morty API.',
+      'A project for WCS Lisbon built with React using Styled-Components and Rick and Morty API.',
     github: 'https://github.com/TRM-WCSLisbon/ricky_morty_react_app',
   },
   {
@@ -35,12 +36,14 @@ export const projects = [
     title: 'Portfolio',
     description:
       'A project dedicated to show some of my skills and knowledge, built with React using Styled-Components.',
+    github: '',
   },
   {
     img: `${krow}`,
     url: 'https://www.krow.works/',
     title: 'Krow.works',
-    description: 'A Full-stack project for Krow built with React and Node.js using Stripe and Hubspot.',
+    description: 
+      'A Full-stack project for Krow built with React and Node.js using Stripe and Hubspot.',
     github: '',
   },
 ];
