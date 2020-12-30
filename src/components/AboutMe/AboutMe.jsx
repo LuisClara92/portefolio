@@ -65,9 +65,9 @@ const StyledAboutMe = styled.div`
   }
 
   .profile_foto {
-    width: auto;
-    height: 16rem;
-    border-radius: 50%;
+    width: 40rem;
+    height: 15rem;
+    border-radius: 75%;
     align-self: center;
   }
 
@@ -153,7 +153,7 @@ const AboutMe = () => (
           {/* <ImageTec name='MongoDB' src={mongodb} />
           <ImageTec name='Mongoose' src={mongoose} />
           <ImageTec name='Vue' src={vue} /> */}
-          <ImageTec name="React" src={react} />
+          <ImageTec name="React | Redux" src={react} />
           {/* <ImageTec name='React Native' src={react} /> */}
           {/* <ImageTec name='Redux' src={redux} />
           <ImageTec name='GraphQL' src={graphql} />
