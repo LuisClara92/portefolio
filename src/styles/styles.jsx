@@ -10,6 +10,8 @@ export const DARK_RED = '#371419';
 
 export const BLUE = '#465B65';
 
+// export const LIGHT_BLUE = '#242757';
+
 export const BOX_SHADOW = 'box-shadow: 0 -2px 24px 0 rgba(0, 0, 0, 0.24), 0 2px 24px 0 rgba(0, 0, 0, 0.12);'
 
 export const BOX_SHADOW2 = 'box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2)'

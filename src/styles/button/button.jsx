@@ -9,8 +9,9 @@ const StyledButton = styled.button`
     ${props => props.block ? 'width: 100%' : 'width: 15rem'};
     ${props => props.red ? `border: ${RED}` : `border: ${BLUE}`};
     opacity: 1;
+    // display:inline-block;
     border-radius: 10px;
-    margin-top: 80px;
+    margin: 50px 20px;
     font-size: 1.3rem;
     font-weight: bold;
     color:white;

@@ -14,7 +14,7 @@ const Portfolio = () => {
       <Element name='portfolio' className='element'>
         <Title
           title='Projects'
-          description='Always excited to learn, design and build new things.'
+          description='Check my progress and open my projects.'
         />
       </Element>
       {/* <S.Buttons>

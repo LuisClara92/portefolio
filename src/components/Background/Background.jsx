@@ -1,11 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 import { Element } from "react-scroll";
 
-import Title from '../Title';
-import { RED, BLUE } from '../../styles/styles';
+import Title from "../Title";
+import { RED, BLUE } from "../../styles/styles";
 
-import talks from './data';
+import background from "./data";
 
 const Wrapper = styled.div`
   display: flex;
@@ -47,10 +47,11 @@ const BoardLeft = styled.div`
   border-radius: 0 0 2rem 2rem;
   position: relative;
 
-  @media(max-width: 900px) {
+  @media (max-width: 900px) {
     width: 12rem;
 
-    p, .data-event {
+    p,
+    .data-event {
       font-size: 1rem;
       padding: 0 1rem;
     }
@@ -63,7 +64,7 @@ const BoardLeft = styled.div`
     background: ${RED};
     position: absolute;
     right: -8rem;
-    top: -.5rem;
+    top: -0.5rem;
     color: white;
     display: flex;
     flex-direction: column;
@@ -129,13 +130,13 @@ const BoardRight = styled.div`
   border-radius: 0 0 2rem 2rem;
   position: relative;
 
-  @media(max-width: 900px) {
+  @media (max-width: 900px) {
     width: 12rem;
 
-    p, .data-event {
+    p,
+    .data-event {
       font-size: 1rem;
       padding: 0 1rem;
-
     }
   }
   .circle {
@@ -145,7 +146,7 @@ const BoardRight = styled.div`
     background: ${RED};
     position: absolute;
     left: -8rem;
-    top: -.5rem;
+    top: -0.5rem;
     color: white;
     display: flex;
     flex-direction: column;
@@ -176,7 +177,7 @@ const BoardRight = styled.div`
 
     p {
       color: white;
-      margin: 0;
+      margin: -5px;
     }
   }
 
@@ -200,68 +201,76 @@ const BoardRight = styled.div`
       font-weight: bold;
     }
   }
-
- 
 `;
 
-const Talks = () => (
+const Background = () => (
   <div>
-    <Element name="talks" className="element">
-        <Title
-          id='talks'
-          title={'Talks'}
-          description={'Because the best way to improve yourself, is to share your knowledge'}
-        />
+    <Element name="background" className="element">
+      <Title
+        id="background"
+        title={"Background"}
+        description={"Never old to learn something new things!"}
+      />
     </Element>
     <Wrapper>
-      <SideLeft className='first'>
-        {talks.map(
-          (talk, i) =>
+      <SideLeft className="first">
+        {background.map(
+          (background, i) =>
             i % 2 === 0 && (
-              <BoardLeft key={i} className='left'>
-                <div className='board__header'>
+              <BoardLeft key={i} className="left">
+                <div className="board__header">
                   <span />
-                  <p>{talk.title}</p>
+                  <p>{background.title}</p>
                 </div>
-                <div className='data-event'>
-                  <div className='organization'>{talk.organization}</div>
-                  <a className='link-event' href={talk.url} target='_blank' rel="noopener noreferrer">
+                <div className="data-event">
+                  <div className="organization">{background.organization}</div>
+                  <a
+                    className="link-event"
+                    href={background.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Link to event
                   </a>
                 </div>
-                <span className='circle'>
-                  <p>{talk.month}</p>
-                  <p>{talk.year}</p>
+                <span className="circle">
+                  <p>{background.yearInit}</p>
+                  <p>{background.yearFinish}</p>
                 </span>
               </BoardLeft>
-            ),
+            )
         )}
       </SideLeft>
       <SideRight>
-        {talks.map(
-          (talk, i) =>
+        {background.map(
+          (background, i) =>
             !(i % 2 === 0) && (
               <BoardRight key={i}>
-                <div className='board__header'>
+                <div className="board__header">
                   <span />
-                  <p>{talk.title}</p>
+                  <p>{background.title}</p>
                 </div>
-                <div className='data-event'>
-                  <div className='organization'>{talk.organization}</div>
-                  <a className='link-event' href={talk.url} target='_blank' rel="noopener noreferrer">
+                <div className="data-event">
+                  <div className="organization">{background.organization}</div>
+                  <a
+                    className="link-event"
+                    href={background.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Link to event
                   </a>
                 </div>
-                <span className='circle'>
-                  <p>{talk.month}</p>
-                  <p>{talk.year}</p>
+                <span className="circle">
+                  <p>{background.yearInit}</p>
+                  <p>{background.yearFinish}</p>
                 </span>
               </BoardRight>
-            ),
+            )
         )}
       </SideRight>
     </Wrapper>
   </div>
 );
 
-export default Talks;
+export default Background;

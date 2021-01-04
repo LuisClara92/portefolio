@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { BLUE } from "../../styles/styles";
+import { DARK_RED } from "../../styles/styles";
 import { Element } from "react-scroll";
-import Developer from "../../img/programming.svg";
+import Developer from "../../img/programming2.png";
 import NavBar from "./NavBar";
 
 const StyledHeader = styled.div`
@@ -10,7 +10,7 @@ const StyledHeader = styled.div`
     width: 100%
     display: flex;
     justify-content: space-between;
-    background-color: ${BLUE};
+    background-color: ${DARK_RED};
 
     img{
         height: 80%;

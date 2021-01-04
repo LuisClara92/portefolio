@@ -4,11 +4,12 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Greetings from "./components/Greetings/Greetings";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Stack from "./components/AboutMe/Stack";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Development from "./components/Development/Development";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-// import Talks from "./components/Talks/Talks";
+import Background from "./components/Background/Background";
 import FloatingButton from "./styles/button/FloatingButton";
 
 class App extends Component {
@@ -39,9 +40,10 @@ class App extends Component {
         <Header />
         <Greetings />
         <AboutMe />
+        <Background />
+        <Stack />
         <Development />
         <Portfolio />
-        {/* <Talks /> */}
         <Contact />
         <Footer />
       </div>

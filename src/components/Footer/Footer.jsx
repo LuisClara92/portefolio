@@ -6,7 +6,7 @@ import { BLUE, RED } from '../../styles/styles';
 
 const StyledFooter = styled.div`
     width: 100%;
-    height: 20rem;
+    height: 12rem;
     background: ${BLUE}
     margin-top: 50px;
     color: white;
@@ -70,6 +70,10 @@ const StyledFooter = styled.div`
     .logos i:hover {
         color: ${RED};
     }
+    .design{
+      color: #fff;
+      text-decoration:none;
+    }
 `;
 
 const Footer = () => {
@@ -79,9 +83,13 @@ const Footer = () => {
       <div className='footer-content'>
         <div>
           <span className='copyright'>
-            © {year}
+            {year}
             <span className='name'>Luis Clara</span>
           </span>
+          <p>
+            © 
+            <a className='design' href="https://www.mariosilvaprada.com/"> Mário Prada </a>
+          </p>
         </div>
         <div className='footer-nav'>
           <Link
@@ -110,6 +118,30 @@ const Footer = () => {
           <span>|</span>
           <Link
             className='navbar_item'
+            href='#background'
+            activeClass='active'
+            to='background'
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
+            Background
+          </Link>
+          <span>|</span>
+          <Link
+            className='navbar_item'
+            href='#stack'
+            activeClass='active'
+            to='stack'
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
+            Stack
+          </Link>
+          <span>|</span>
+          <Link
+            className='navbar_item'
             href='#portfolio'
             activeClass='active'
             to='portfolio'
@@ -120,18 +152,6 @@ const Footer = () => {
             Portfolio
           </Link>
           <span>|</span>
-          {/* <Link
-            className='navbar_item'
-            href='#talks'
-            activeClass='active'
-            to='talks'
-            spy={true}
-            smooth={true}
-            duration={700}
-          >
-            Talks
-          </Link>
-          <span>|</span> */}
           <Link
             className='navbar_item'
             href='#development'

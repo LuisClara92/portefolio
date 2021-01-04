@@ -43,7 +43,7 @@ export const projects = [
     url: 'https://www.krow.works/',
     title: 'Krow.works',
     description: 
-      'A Full-stack project for Krow built with React and Node.js using Stripe and Hubspot.',
+      'A Full-stack project for Krow built with React and Node.js, using Stripe and Hubspot.',
     github: '',
   },
 ];
