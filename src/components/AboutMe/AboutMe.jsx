@@ -54,12 +54,17 @@ const StyledAboutMe = styled.div`
   }
 
   .profile_foto {
+    position: relative;
     width: 40rem;
     height: 15rem;
     border-radius: 75%;
     align-self: center;
   }
-
+  @media screen and (max-width: 1100px) {
+    .profile_foto {
+      width: auto;
+    }
+  }
   @media screen and (max-width: 950px) {
     .aside {
       flex-direction: column;
@@ -118,8 +123,8 @@ const AboutMe = () => (
             has become real!
           </p>
           <p>
-            I integrate a Full Stack Web Developer Bootcamp at the Wild Code
-            School in Lisbon(700h). I'm always excited to learn new technologies
+            I attended a Full Stack Web Developer Bootcamp at the Wild Code
+            School in Lisbon (700h). I'm always excited to learn new technologies
             and build new things with them. With my background in Biotechnology,
             I'm good at planning, organizing and keeping things simple. And I
             like to search for the best solution in order to present
