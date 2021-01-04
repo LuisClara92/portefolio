@@ -92,17 +92,6 @@ const Footer = () => {
           </p>
         </div>
         <div className='footer-nav'>
-          <Link
-            className='navbar_item'
-            href='#about'
-            activeClass='active'
-            to='navbar'
-            spy={true}
-            smooth={true}
-            duration={700}
-          >
-            Home
-          </Link>
           <span>|</span>
           <Link
             className='navbar_item'
@@ -142,6 +131,18 @@ const Footer = () => {
           <span>|</span>
           <Link
             className='navbar_item'
+            href='#development'
+            activeClass='active'
+            to='development'
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
+            Development
+          </Link>
+          <span>|</span>
+          <Link
+            className='navbar_item'
             href='#portfolio'
             activeClass='active'
             to='portfolio'
@@ -152,17 +153,6 @@ const Footer = () => {
             Portfolio
           </Link>
           <span>|</span>
-          <Link
-            className='navbar_item'
-            href='#development'
-            activeClass='active'
-            to='development'
-            spy={true}
-            smooth={true}
-            duration={700}
-          >
-            Development
-          </Link>
         </div>
         <div className='logos'>
           <a href='https://github.com/LuisClara92' target='blank'>

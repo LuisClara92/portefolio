@@ -209,7 +209,7 @@ const Background = () => (
       <Title
         id="background"
         title={"Background"}
-        description={"Never old to learn something new things!"}
+        description={"Never old to learn something new!"}
       />
     </Element>
     <Wrapper>
@@ -230,7 +230,7 @@ const Background = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Link to event
+                    Link
                   </a>
                 </div>
                 <span className="circle">
@@ -258,7 +258,7 @@ const Background = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Link to event
+                    Link
                   </a>
                 </div>
                 <span className="circle">

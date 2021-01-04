@@ -9,19 +9,19 @@ const background = [
     {
       title: 'Food and Product Engineer',
       organization: 'Casa Quintela',
-      url: '',
+      url: 'http://www.casaquintela.pt/',
       yearInit: 2015,
       yearFinish: 2017,
     },
     {
       title: 'Restaurant Manager',
       organization: "McDonald's Lisbon",
-      url: '',
+      url: 'https://www.mcdonalds.pt/',
       yearInit: 2017,
       yearFinish: 2020,
     },
     {
-      title: 'Full-stack Web Developer',
+      title: 'Full-Stack Web Developer',
       organization: 'Wild Code School Lisbon',
       url: 'https://www.wildcodeschool.com/en-GB/campuses/lisbon',
       yearInit: 2020,

@@ -87,7 +87,7 @@ const Development = () => (
           <TiltImage alt="responsive" src={responsive} />
           <TextContent
             title="Responsive"
-            description="My objective is code , no matter the size of the screen."
+            description="My goal is create functional Web App's, despite the size of the screen."
           />
         </div>
         <div className="content">
