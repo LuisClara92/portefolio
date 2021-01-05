@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Typed from 'react-typed';
 import img from '../../img/laptop2.png';
 import { Link } from 'react-scroll';
-import DownloadLink from './DownloadPdf';
+// import DownloadLink from './DownloadPdf';
 
 import { white, RED } from '../../styles/styles';
 import StyledButton from '../../styles/button/button';
@@ -50,9 +50,9 @@ const Greetings = () => (
             <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={700}>
                 <StyledButton style={{display: 'inline-block'}} red>Check my projects</StyledButton>
             </Link>
-                <StyledButton red>
+                {/* <StyledButton red>
                     <DownloadLink src="./Luis_Clara.pdf">Download my Resume</DownloadLink>
-                </StyledButton>
+                </StyledButton> */}
         </ColorLayer>
     </Wrapper>
 )

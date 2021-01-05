@@ -8,7 +8,7 @@ const DownloadPdf = styled.a`
 `
 
 class DownloadLink extends Component {
-  render() {
+  render(props) {
     return (
       <form method="get" action={this.props.src}>
         <DownloadPdf href={this.props.src} download>
