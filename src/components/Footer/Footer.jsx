@@ -87,8 +87,8 @@ const Footer = () => {
             <span className='name'>Luis Clara</span>
           </span>
           <p>
-            © 
-            <a className='design' href="https://www.mariosilvaprada.com/"> Mário Prada </a>
+            © Mário Prada
+            {/* <a className='design' href="https://www.mariosilvaprada.com/"> Mário Prada </a> */}
           </p>
         </div>
         <div className='footer-nav'>
