@@ -26,6 +26,11 @@ const StyledHeader = styled.div`
             display: none;
         }
     }
+
+    @media screen and (max-width: 750) {
+      font-size: 1rem;
+
+  }
 `;
 const Header = () => (
   <Element name="navbar" className="element">

@@ -83,11 +83,11 @@ const Footer = () => {
       <div className='footer-content'>
         <div>
           <span className='copyright'>
-            {year}
+          © {year}
             <span className='name'>Luis Clara</span>
           </span>
           <p>
-            © Mário Prada
+            {/* © Mário Prada */}
             {/* <a className='design' href="https://www.mariosilvaprada.com/"> Mário Prada </a> */}
           </p>
         </div>

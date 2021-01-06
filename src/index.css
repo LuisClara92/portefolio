@@ -25,6 +25,16 @@ code {
 
 @media screen and (max-width: 500px) {
   html {
+    font-size: 75%;
+  }
+}
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 65%;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
     font-size: 55%;
   }
 }

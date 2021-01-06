@@ -14,16 +14,14 @@ const Wrapper = styled.div`
     height: calc(120vh - 7rem);
     margin-top: -1rem;
 
-    @media screen and (max-width: 950px) {
-        height: calc(100vh - 5rem)
+    @media screen and (max-width: 750px) {
+        height: 75vh;
     }
-    
 `
 
 const ColorLayer = styled.div`
     background-color: ${white(0.4)};
     height:100%;
-    width: 100%;
     margin-top: 1rem;
     display:flex;
     justify-content: center;

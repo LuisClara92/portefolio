@@ -17,7 +17,7 @@ const StyledNavBar = styled.div`
         color: white;
         display: flex;
         align-items: center;
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     .navbar_item:hover {
@@ -27,6 +27,10 @@ const StyledNavBar = styled.div`
 
     @media screen and (max-width: 950px) {
         font-size: 1.2rem;
+    }
+    @media screen and (max-width: 750px) {
+        margin-right:1rem;
+        font-size: 1rem;
     }
 `
 
