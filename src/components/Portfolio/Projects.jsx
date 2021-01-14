@@ -5,6 +5,8 @@ import krow from '../../img/portfolio/krow.png';
 import portefolio from '../../img/portfolio/portefolio.png';
 import flags from '../../img/portfolio/flags.png';
 import hungerStrikes from '../../img/portfolio/hungerStrike.png';
+import music from '../../img/portfolio/music.gif';
+
 
 // import expenseApp from '../../img/portfolio/mobile/expense_app.png';
 
@@ -37,7 +39,7 @@ export const projects = [
     url: 'https://lc-game-app.netlify.app/',
     title: 'Game Library',
     description: 
-      'A project for Checkpoint 2 of WCS Lisbon built with React using MaterialUI and wild-games API.',
+      'A project doen in 4h for Checkpoint 2 of WCS Lisbon built with React using MaterialUI and wild-games API.',
     github: 'https://github.com/LuisClara92/game-app',
   },
   {
@@ -55,6 +57,14 @@ export const projects = [
     description:
       'A project dedicated to show some of my skills and knowledge, built with React using Styled-Components.',
     github: '',
+  },
+  {
+    img: `${music}`,
+    url: 'https://github.com/LuisClara92/checkpoint3_backend',
+    title: 'BackEnd Project ',
+    description:
+      'A project done in 4h for Checkpoint 3 of WCS Lisbon built with Node.js using Express.js, MySQL and Postman.',
+    github: 'https://github.com/LuisClara92/checkpoint3_backend',
   },
   {
     img: `${krow}`,
