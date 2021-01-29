@@ -184,7 +184,7 @@ const ContactForm = () => {
         <form
           className='form'
           method='POST'
-          action='https://docs.google.com/forms/d/e/1FAIpQLSd3CfXUC74QwBziYACiTKQUKl94L7tJq16gMIqrFJgs86JgtQ/formResponse'
+          action='https://docs.google.com/forms/d/e/1FAIpQLSeTO4my9JBN3AO0d0cz2arph1fds-dRTRq_1IYf4p4oSXqQ9Q/viewform'
           target='hidden_iframe'
           onSubmit={() => onSubmit()}
         >
