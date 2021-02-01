@@ -182,11 +182,11 @@ const ContactForm = () => {
       </div>
       <div className='my-form'>
         <form
-          className='form'
-          method='POST'
-          action='https://docs.google.com/forms/d/e/1FAIpQLSeTO4my9JBN3AO0d0cz2arph1fds-dRTRq_1IYf4p4oSXqQ9Q/viewform'
-          target='hidden_iframe'
-          onSubmit={() => onSubmit()}
+          // className='form'
+          // method='POST'
+          // action='https://docs.google.com/forms/d/e/1FAIpQLSeTO4my9JBN3AO0d0cz2arph1fds-dRTRq_1IYf4p4oSXqQ9Q/viewform'
+          // target='hidden_iframe'
+          // onSubmit={() => onSubmit()}
         >
           <div className='field-input'>
             <input
