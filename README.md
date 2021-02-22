@@ -1,6 +1,3 @@
-# API Request Demo Site
-This site is a demo for project 2 for WCS Lisbon Campus requesting data from an API, particularly from the Rick and Morty API.
-
 ## Technologies and Skills used
 This project was built using:
 
@@ -22,7 +19,7 @@ This project was built using:
 * Material-UI
 
 ## About me
-We are students of Web Developer with knowledge of the front-end. Our goal is to specialize on Full-Stack development and one day become a good Juniors developers.
+We are students of Web Developer with knowledge of the front-end. Our goal is to specialize on Full-Stack development and one day become a good Junior developer.
 
 For any inquiries, please feel free to contact us through ours Linkedins:
 
