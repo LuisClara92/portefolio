@@ -186,7 +186,7 @@ const ContactForm = () => {
           // method='POST'
           // action='https://docs.google.com/forms/d/e/1FAIpQLSeTO4my9JBN3AO0d0cz2arph1fds-dRTRq_1IYf4p4oSXqQ9Q/viewform'
           // target='hidden_iframe'
-          // onSubmit={() => onSubmit()}
+          onSubmit={() => onSubmit()}
         >
           <div className='field-input'>
             <input
