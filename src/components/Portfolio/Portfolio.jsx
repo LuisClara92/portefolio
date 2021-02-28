@@ -1,22 +1,27 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
-import Title from '../Title';
-import { Element } from 'react-scroll';
-import { projects } from './Projects';
-import { mobile } from './Projects';
+import React, { useState } from "react";
+import Title from "../Title";
+import { Element } from "react-scroll";
+import { projects } from "./Projects";
+import { mobile } from "./Projects";
+import ImageProj from "./ImageProj";
+import passion from "../../img/Your-Passion.png";
 
-import * as S from './Portfolio.styled';
+import * as S from "./Portfolio.styled";
 
 const Portfolio = () => {
-  const [ isWeb, setIsWeb ] = useState(true);
+  const [isWeb, setIsWeb] = useState(true);
   return (
     <div>
-      <Element name='portfolio' className='element'>
+      <Element name="portfolio" className="element">
         <Title
-          title='Projects'
-          description='Check my progress and open my projects.'
+          title="Projects"
+          description="Check my progress and open my projects."
         />
       </Element>
+      <S.StyledPortfolio>
+        <ImageProj alt="" src={passion} />
+      </S.StyledPortfolio>
       {/* <S.Buttons>
         <S.Button onClick={() => setIsWeb(true)} isWeb={isWeb}>
           Web
@@ -28,32 +33,39 @@ const Portfolio = () => {
 
       <S.StyledPortfolio>
         {isWeb ? (
-          <div className='my-work'>
+          <div className="my-work">
             {projects.map((project, i) => {
               return (
-                <div key={i} className='project'>
-                  <a href={project.url} target='_blank' rel='noopener noreferrer'>
+                <div key={i} className="project">
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img alt={project.title} src={project.img} />
                   </a>
-                  <a href={project.url} target='_blank' rel='noopener noreferrer'>
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <h2>{project.title}</h2>
                   </a>
-                  <p className='portfolio-description'>{project.description}</p>
+                  <p className="portfolio-description">{project.description}</p>
                   <a
                     href={project.github}
-                    className='github'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    className="github"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span>GitHub</span>
-                    <i className='fab fa-github' />
+                    <i className="fab fa-github" />
                   </a>
                 </div>
               );
             })}
           </div>
-        ) 
-        : (
+        ) : (
           mobile.map((app) => (
             <S.Wrapper>
               {/* <h1>{app.title}</h1>
@@ -71,8 +83,7 @@ const Portfolio = () => {
               </S.Paragraph> */}
             </S.Wrapper>
           ))
-        )
-        }
+        )}
       </S.StyledPortfolio>
     </div>
   );

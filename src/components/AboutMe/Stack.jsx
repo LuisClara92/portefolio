@@ -21,6 +21,20 @@ import github from "../../img/techs/github.png";
 import sass from "../../img/techs/sass.png";
 import figma from "../../img/techs/figma.png";
 import styledComponents from "../../img/techs/styled-components.png";
+import zeplin from "../../img/techs/zeplin.png";
+import postman from "../../img/techs/postman.png";
+import vscode from "../../img/techs/vscode.svg";
+import cli from "../../img/techs/cli.png";
+import ubuntu from "../../img/techs/ubuntu.png";
+import mysql from "../../img/techs/mysql.png";
+import redux from "../../img/techs/redux.png";
+import jest from "../../img/techs/jest.png";
+import netbeans from "../../img/techs/netbeans.png";
+import scrum from "../../img/techs/agile.png";
+import workbench from "../../img/techs/mysqlWorkbench.png";
+import webApi from "../../img/techs/API.png";
+import bootstrap from "../../img/techs/bootstrap.png";
+
 
 const StyledAboutMe = styled.div`
   display: flex;
@@ -101,7 +115,7 @@ const Stack = () => (
     <Element name="stack" className="element">
       <Title
         id="stack"
-        title={"My Stack"}
+        title={"Stack, Technologies and Tools"}
         description={'All my knowledge until now.'}
       />
     </Element>
@@ -112,15 +126,27 @@ const Stack = () => (
           <ImageTec name="HTML5" src={html} />
           <ImageTec name="CSS3" src={css} />
           <ImageTec name="Javascript" src={javascript} />
+          <ImageTec name="Visual Studio Code" src={vscode} />
+          <ImageTec name="ReactJS" src={react} />
           <ImageTec name="NodeJS" src={node} />
-          <ImageTec name="ExpressJS" src={express} />
-          <ImageTec name="React | Redux" src={react} />
-          <ImageTec name="SASS" src={sass} />
           <ImageTec name="Styled-Components" src={styledComponents} />
+          <ImageTec name="SASS" src={sass} />
+          <ImageTec name="Bootstrap" src={bootstrap} />
+          <ImageTec name="SQL | MySQL" src={mysql} />
+          <ImageTec name="MySQL Workbench" src={workbench} />
+          <ImageTec name="ExpressJS" src={express} />
+          <ImageTec name="Redux" src={redux} />
+          <ImageTec name="Jest" src={jest} />
+          <ImageTec name="Scrum | Agile" src={scrum} />
+          <ImageTec name="REST API" src={webApi} />
           <ImageTec name="NPM" src={npm} />
           <ImageTec name="GIT" src={git} />
           <ImageTec name="GitHub" src={github} />
           <ImageTec name="Figma" src={figma} />
+          <ImageTec name="Zeplin" src={zeplin} />
+          <ImageTec name="Postman" src={postman} />
+          <ImageTec name="CLI" src={cli} />
+          <ImageTec name="Ubuntu" src={ubuntu} />
         </div>
       </StyledTec>
 
@@ -128,6 +154,7 @@ const Stack = () => (
         <h1>Currently self-learning</h1>
         <LearningWrapper>
           <ImageTec name="Java" src={java} />
+          <ImageTec name="NetBeans" src={netbeans} />
         </LearningWrapper>
       </LearningContainer>
     </StyledAboutMe>
