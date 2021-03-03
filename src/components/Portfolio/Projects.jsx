@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     img: `${hungerStrikes}`,
-    url: 'https://hunger-strike.netlify.app/',
+    url: 'https://hungerstrike.on.fleek.co/',
     title: 'Hunger Strike',
     description: 
       'A Group project for 48h Hackathon of WCS built with React using Bootstrap and 2 different API\'s.',

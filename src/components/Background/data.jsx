@@ -21,7 +21,7 @@ const background = [
       yearFinish: 2020,
     },
     {
-      title: 'Full-Stack Web Developer',
+      title: 'Student Web Developer',
       organization: 'Wild Code School Lisbon',
       url: 'https://www.wildcodeschool.com/en-GB/campuses/lisbon',
       yearInit: 2020,

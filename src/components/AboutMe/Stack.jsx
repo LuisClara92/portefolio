@@ -29,11 +29,14 @@ import ubuntu from "../../img/techs/ubuntu.png";
 import mysql from "../../img/techs/mysql.png";
 import redux from "../../img/techs/redux.png";
 import jest from "../../img/techs/jest.png";
-import netbeans from "../../img/techs/netbeans.png";
+// import netbeans from "../../img/techs/netbeans.png";
 import scrum from "../../img/techs/agile.png";
 import workbench from "../../img/techs/mysqlWorkbench.png";
 import webApi from "../../img/techs/API.png";
 import bootstrap from "../../img/techs/bootstrap.png";
+import intellij from "../../img/techs/intellij.png";
+
+
 
 
 const StyledAboutMe = styled.div`
@@ -151,10 +154,11 @@ const Stack = () => (
       </StyledTec>
 
       <LearningContainer>
-        <h1>Currently self-learning</h1>
+        <h1>Currently learning</h1>
         <LearningWrapper>
-          <ImageTec name="Java" src={java} />
-          <ImageTec name="NetBeans" src={netbeans} />
+          <ImageTec name="Java SE 11" src={java} />
+          <ImageTec name="IntelliJ IDE" src={intellij} />
+          {/* <ImageTec name="NetBeans" src={netbeans} /> */}
         </LearningWrapper>
       </LearningContainer>
     </StyledAboutMe>
