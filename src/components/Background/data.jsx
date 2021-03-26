@@ -21,11 +21,32 @@ const background = [
       yearFinish: 2020,
     },
     {
-      title: 'Student Web Developer',
+      title: 'Full-stack Web Developer(700h)',
       organization: 'Wild Code School Lisbon',
       url: 'https://www.wildcodeschool.com/en-GB/campuses/lisbon',
       yearInit: 2020,
       yearFinish: 2021,
+    },
+    {
+      title: 'Java & Java with OOP(80h)',
+      organization: 'Curso em Video',
+      url: 'https://www.cursoemvideo.com/',
+      yearInit: 2021,
+      yearFinish: 2021,
+    },
+    {
+      title: 'RPA Developer Foundation(40h)',
+      organization: 'UiPath Academy',
+      url: 'https://academy.uipath.com/',
+      yearInit: 2021,
+      yearFinish: 2021
+    },
+    {
+      title: 'RPA Developer {in training}',
+      organization: 'Babel - Sistemas de Informação',
+      url: 'https://babel.es/pt',
+      yearInit: 2021,
+      yearFinish: 'Present',
     },
     // {
     //   title: 'Styling in React with Styled Components',
