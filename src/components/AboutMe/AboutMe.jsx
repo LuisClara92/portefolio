@@ -5,6 +5,9 @@ import Title from "../Title";
 
 import { Element } from "react-scroll";
 
+import ImageTec from "./ImageTec";
+import babel from "../../img/techs/babel (2).png";
+
 // Profile pic
 import foto from "../../img/foto.png";
 
@@ -96,9 +99,11 @@ const AboutMe = () => (
            After the bootcamp I never stopped learning. 
            I have already completed a training in Java SE 11 with OOP (80h), 
            and now I am going to start a new project.</p> 
-           <h1>RPA - Robotic Process Automation Developer at Babel</h1>
+
+           <h1>RPA - Robotic Process Automation </h1>
+           <ImageTec name="Babel - Sistemas de Informação" src={babel} />
            <p>
-            Basically I will learn to automate processes in a robotic way. New adventures, here I come! 
+            Basically I will learn to develop automate processes in a robotic way. New adventures, here I come! 
           </p>
           {/* <cite>
             "Live as if you were to die tomorrow. Learn as if you were to live
