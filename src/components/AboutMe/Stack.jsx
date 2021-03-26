@@ -29,12 +29,15 @@ import ubuntu from "../../img/techs/ubuntu.png";
 import mysql from "../../img/techs/mysql.png";
 import redux from "../../img/techs/redux.png";
 import jest from "../../img/techs/jest.png";
-// import netbeans from "../../img/techs/netbeans.png";
+import netbeans from "../../img/techs/netbeans.png";
 import scrum from "../../img/techs/agile.png";
 import workbench from "../../img/techs/mysqlWorkbench.png";
 import webApi from "../../img/techs/API.png";
 import bootstrap from "../../img/techs/bootstrap.png";
 import intellij from "../../img/techs/intellij.png";
+import rpa from "../../img/techs/rpa_animated.svg";
+import uipath from "../../img/techs/uipath.svg";
+
 
 
 
@@ -150,15 +153,17 @@ const Stack = () => (
           <ImageTec name="Postman" src={postman} />
           <ImageTec name="CLI" src={cli} />
           <ImageTec name="Ubuntu" src={ubuntu} />
+          <ImageTec name="Java SE 11" src={java} />
+          <ImageTec name="IntelliJ IDE" src={intellij} />
+          <ImageTec name="NetBeans IDE" src={netbeans} />
         </div>
       </StyledTec>
 
       <LearningContainer>
         <h1>Currently learning</h1>
         <LearningWrapper>
-          <ImageTec name="Java SE 11" src={java} />
-          <ImageTec name="IntelliJ IDE" src={intellij} />
-          {/* <ImageTec name="NetBeans" src={netbeans} /> */}
+          <ImageTec name="RPA" src={rpa} />
+          <ImageTec name="UiPath" src={uipath} />
         </LearningWrapper>
       </LearningContainer>
     </StyledAboutMe>

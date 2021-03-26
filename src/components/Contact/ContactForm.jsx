@@ -189,7 +189,17 @@ const ContactForm = () => {
           onSubmit={() => onSubmit()}
         >
           <div className='field-input'>
-            <input
+             <input
+              className='email-input'
+              name='emailAddress'
+              type='email'
+              placeholder='E-mail'
+              required
+            />
+            <i className='fas fa-at' />
+          </div>
+          <div className='field-input'>
+           <input
               className='name-input'
               name='entry.43873526'
               type='text'
@@ -197,17 +207,6 @@ const ContactForm = () => {
               required
             />
             <i className='fas fa-user' />
-          </div>
-          <div className='field-input'>
-            <input
-              className='email-input'
-              name='emailAddress'
-              type='email'
-              placeholder='E-mail'
-              required
-
-            />
-            <i className='fas fa-at' />
           </div>
           <div className='field-input'>
             <textarea

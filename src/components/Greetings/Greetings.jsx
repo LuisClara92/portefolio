@@ -57,9 +57,9 @@ const Greetings = () => (
           Check my projects
         </StyledButton>
       </Link>
-      <StyledButton red>
+      {/* <StyledButton red>
         <DownloadPdf href={CV} download="CV_Luis_Clara">Download my Resume</DownloadPdf>
-      </StyledButton>
+      </StyledButton> */}
     </ColorLayer>
   </Wrapper>
 );

@@ -78,8 +78,8 @@ const AboutMe = () => (
         <div>
           <h1>Hello, my name is Luis Clara!</h1>
           <p>
-            I live in Portugal and I'm a Junior
-            Web Developer. In 2020 I changed my path, creating a new route for
+            I live in Portugal and I'm a 
+            RPA Developer in training. In 2020 I changed my path, creating a new route for
             my future! Why? Because after I started writing my 1st line of code,
             the feeling that I am doing something for the good of the community
             has become real!
@@ -91,6 +91,14 @@ const AboutMe = () => (
             I'm good at planning, organizing and keeping things simple. And I
             like to search for the best solution in order to present
             well-structured and complete products.
+          </p>
+          <p>
+           After the bootcamp I never stopped learning. 
+           I have already completed a training in Java SE 11 with OOP (80h), 
+           and now I am going to start a new project.</p> 
+           <h1>RPA - Robotic Process Automation Developer at Babel</h1>
+           <p>
+            Basically I will learn to automate processes in a robotic way. New adventures, here I come! 
           </p>
           {/* <cite>
             "Live as if you were to die tomorrow. Learn as if you were to live

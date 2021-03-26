@@ -39,7 +39,7 @@ const background = [
       organization: 'UiPath Academy',
       url: 'https://academy.uipath.com/',
       yearInit: 2021,
-      yearFinish: 2021
+      yearFinish: 'Present'
     },
     {
       title: 'RPA Developer {in training}',
