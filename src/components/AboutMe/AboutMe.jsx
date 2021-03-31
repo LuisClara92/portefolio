@@ -9,7 +9,7 @@ import ImageTec from "./ImageTec";
 import babel from "../../img/techs/babel (2).png";
 
 // Profile pic
-import foto from "../../img/foto.png";
+import foto from "../../img/foto perfil.jpeg";
 
 const StyledAboutMe = styled.div`
   display: flex;
@@ -41,17 +41,17 @@ const StyledAboutMe = styled.div`
 
   .profile_foto {
     position: relative;
-    width: 40rem;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 75%;
     align-self: center;
   }
   @media screen and (max-width: 1100px) {
     .profile_foto {
-      width: auto;
+      width: 25rem;
     }
   }
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1500px) {
     .aside {
       flex-direction: column;
     }

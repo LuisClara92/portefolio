@@ -28,21 +28,28 @@ const background = [
       yearFinish: 2021,
     },
     {
-      title: 'Java & Java with OOP(80h)',
+      title: 'Java SE 11 & OOP (80h)',
       organization: 'Curso em Video',
       url: 'https://www.cursoemvideo.com/',
       yearInit: 2021,
       yearFinish: 2021,
     },
     {
-      title: 'RPA Developer Foundation(40h)',
+      title: 'Intro C# .NET & LINQ (48h)',
+      organization: 'Microsoft Docs',
+      url: 'https://academy.uipath.com/',
+      yearInit: 2021,
+      yearFinish: 'Present',
+    },
+    {
+      title: 'RPA Developer Foundation (40h)',
       organization: 'UiPath Academy',
       url: 'https://academy.uipath.com/',
       yearInit: 2021,
       yearFinish: 'Present'
     },
     {
-      title: 'RPA Developer {in training}',
+      title: 'RPA Developer',
       organization: 'Babel - Sistemas de Informação',
       url: 'https://babel.es/pt',
       yearInit: 2021,

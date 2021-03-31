@@ -108,6 +108,7 @@ const LearningContainer = styled.div`
   padding: 1rem 3rem;
   justify-content: center;
   align-items: center;
+  width: 25rem;
 `;
 
 export const LearningWrapper = styled.div`
