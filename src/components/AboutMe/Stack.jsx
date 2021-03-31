@@ -38,11 +38,7 @@ import intellij from "../../img/techs/intellij.png";
 import rpa from "../../img/techs/rpa_animated.svg";
 import uipath from "../../img/techs/uipath.svg";
 import csharp from "../../img/techs/csharp.svg";
-
-
-
-
-
+import dotnet from "../../img/techs/NET_Core.png";
 
 const StyledAboutMe = styled.div`
   display: flex;
@@ -160,6 +156,8 @@ const Stack = () => (
           <ImageTec name="IntelliJ IDE" src={intellij} />
           <ImageTec name="NetBeans IDE" src={netbeans} />
           <ImageTec name="C#" src={csharp} />
+          <ImageTec name=".NET Core" src={dotnet} />
+
         </div>
       </StyledTec>
 
