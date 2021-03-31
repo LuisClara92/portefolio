@@ -37,6 +37,8 @@ import bootstrap from "../../img/techs/bootstrap.png";
 import intellij from "../../img/techs/intellij.png";
 import rpa from "../../img/techs/rpa_animated.svg";
 import uipath from "../../img/techs/uipath.svg";
+import csharp from "../../img/techs/csharp.svg";
+
 
 
 
@@ -157,6 +159,7 @@ const Stack = () => (
           <ImageTec name="Java SE 11" src={java} />
           <ImageTec name="IntelliJ IDE" src={intellij} />
           <ImageTec name="NetBeans IDE" src={netbeans} />
+          <ImageTec name="C#" src={csharp} />
         </div>
       </StyledTec>
 
